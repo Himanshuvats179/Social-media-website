@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <a href="javascript:void(0)" class="loginLink" onclick="openLogin()">Login</a>
+    <a href="javascript:void(0)" class="registerLink">Register</a>
+    <img src="https://res.cloudinary.com/dczt0b0xw/image/upload/v1688941728/samples/wallpaperflare.com_wallpaper_pevrhw.jpg" alt="background-image" class="background">
+    <div class="container1">
+        <form class="'register">
+            <label for="name">Name</label><br>
+            <input type="text" id="name" name="name" placeholder="Aashish Rampal"><br>
+            <label for="email">Email</label><br>
+            <input type="text" id="email" name="email" placeholder="abc@mail.com"><br>
+            <label for="password">Password</label><br>
+            <input type="password" id="password" name="password" placeholder="min length:7"><br>
+            <button class="submit">SUBMIT</button>
+            <div class="error"></div>
+        </form>
+    </div>
+    <div class="container2">
+        <form class="'register">
+            <label for="email">Email</label><br>
+            <input type="text" id="email" name="email" placeholder="abc@mail.com"><br>
+            <label for="password">Password</label><br>
+            <input type="password" id="password" placeholder="min length:7"><br>
+            <a href="javascript:void(0)" class="forgot">Forgot Password</a><br>
+            <button class="submit">SUBMIT</button>
+            <div class="error"></div>
+        </form>
+
+    </div>
+    <div class="container3">
+        <form class="forgot">
+            <label for="email">Email</label><br>
+            <input type="text" id="email" name="email" placeholder="abc@mail.com"><br>
+            <input type="text" class="otp">
+            <button class="submit">SUBMIT</button>
+            <div class="error"></div>
+        </form>
+    </div>
+    <script
+    src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.21.1/axios.min.js"
+    integrity="sha512-bZS47S7sPOxkjU/4Bt0zrhEtWx0y0CRkhEp8IckzK+ltifIIE9EMIMTuT/mEzoIMewUINruDBIR/jJnbguonqQ=="
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"
+  ></script>
+  <script src="javascript.js"></script>
+</body>
+</html>
